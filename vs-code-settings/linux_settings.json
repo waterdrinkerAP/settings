@@ -1,0 +1,130 @@
+{
+    "[css]": {
+        "editor.hover.enabled": false,
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.hover.enabled": false,
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.renderWhitespace": "boundary"
+    },
+    "breadcrumbs.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        {
+            "color": "#6a9955",
+            "column": 72
+        },
+        {
+            "color": "#d7ba7d",
+            "column": 79
+        },
+        {
+            "color": "#f44747",
+            "column": 99
+        },
+        111,
+        149
+    ],
+    "editor.scrollBeyondLastColumn": 3,
+    "editor.scrollBeyondLastLine": false,
+    "editor.showFoldingControls": "always",
+    "editor.snippetSuggestions": "top",
+    "editor.stickyTabStops": true,
+    // "emmet.syntaxProfiles": {
+    //     "html": "xhtml"
+    // }, // This will force empty html tags to be closed
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 79,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.restoreWindows": "preserve",
+    "workbench.editor.enablePreview": false,
+    "zenMode.hideTabs": false,
+    // Settings bellow are for extensions
+    "bracket-pair-colorizer-2.colors": [
+        "#DCDCAA",
+        "#C586C0",
+        "#9CDCFE",
+        "#CE9178"
+    ],
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "cSpell.userWords": [
+        "anki",
+        "arange",
+        "Atanas",
+        "autoplay",
+        "backticks",
+        "Bing",
+        "Blockquotes",
+        "Blockquoting",
+        "chdir",
+        "deque",
+        "displaystyle",
+        "Doubleword",
+        "draggable",
+        "dtype",
+        "elif",
+        "fhandle",
+        "fname",
+        "Fullword",
+        "fullwords",
+        "Genki",
+        "Halfword",
+        "Halfwords",
+        "Hyperfocus",
+        "imag",
+        "journaling",
+        "kani",
+        "keypress",
+        "Khanacademy",
+        "kwlist",
+        "Micromodules",
+        "monospace",
+        "Nasko",
+        "ndarray",
+        "numpy",
+        "nums",
+        "pomodoro",
+        "pygame",
+        "pynput",
+        "rfind",
+        "rgba",
+        "scrollable",
+        "srcset",
+        "striked",
+        "strptime",
+        "Terraformable",
+        "timedelta",
+        "timeit",
+        "Uncategorized",
+        "unindented",
+        "wani"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=pygame",
+        "--disable=missing-docstring, invalid-name"
+    ],
+    "python.linting.pylintEnabled": true
+}
