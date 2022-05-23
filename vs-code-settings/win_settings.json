@@ -161,6 +161,7 @@
     "python.linting.enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.pylintArgs": [
+        "--generate-members",
         "--extension-pkg-whitelist=pygame",
         "--disable=missing-docstring, invalid-name"
     ],
