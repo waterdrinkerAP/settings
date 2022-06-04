@@ -107,6 +107,7 @@
         "striked",
         "strptime",
         "Terraformable",
+        "Thresholding",
         "timedelta",
         "timeit",
         "Uncategorized",
@@ -116,6 +117,7 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
     "python.formatting.blackArgs": [
+        "--skip-string-normalization",
         "--line-length",
         "79"
     ],
