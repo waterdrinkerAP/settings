@@ -13,8 +13,11 @@
     },
     "breadcrumbs.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.detectIndentation": false,
     "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": true,
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
     "editor.renderLineHighlight": "all",
@@ -76,19 +79,20 @@
         }
     },
     "window.restoreWindows": "preserve",
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#DCDCAA",
+        "editorBracketHighlight.foreground2": "#C586C0",
+        "editorBracketHighlight.foreground3": "#9CDCFE",
+        "editorBracketHighlight.foreground4": "#CE9178",
+        "editorBracketHighlight.foreground5": "#569cd6",
+        "editorBracketHighlight.foreground6": "#4ec9b0",
+    },
     "workbench.editor.enablePreview": false,
     "zenMode.hideTabs": false,
     // Settings bellow are for extensions
     "C_Cpp.default.cStandard": "c11",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "bracket-pair-colorizer-2.colors": [
-        "#DCDCAA",
-        "#C586C0",
-        "#9CDCFE",
-        "#CE9178"
-    ],
-    "bracket-pair-colorizer-2.depreciation-notice": false,
     "cSpell.userWords": [
         "anki",
         "arange",
@@ -174,5 +178,6 @@
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
-    }
+    },
+    "git.autofetch": true
 }
