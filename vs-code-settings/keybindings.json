@@ -74,5 +74,20 @@
         "key": "f5",
         "command": "-workbench.action.debug.continue",
         "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.navigateEditorGroups"
+    },
+    // angular switcher
+    {
+        "key": "ctrl+2",
+        "command": "angular.goToComponentWithTemplateFile",
+        "when": "resourceExtname == .html"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "angular.goToTemplateForComponent",
+        "when": "resourceExtname == .ts"
     }
 ]

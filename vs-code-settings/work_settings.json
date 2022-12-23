@@ -1,0 +1,163 @@
+{
+    "[css]": {
+        "editor.hover.enabled": false,
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.hover.enabled": false,
+        "editor.tabSize": 4
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.renderWhitespace": "boundary"
+    },
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": false,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        {
+            "color": "#6a9955",
+            "column": 79
+        },
+        {
+            "color": "#d7ba7d",
+            "column": 99
+        },
+        {
+            "color": "#f44747",
+            "column": 119
+        },
+        129,
+        159
+    ],
+    "editor.scrollBeyondLastColumn": 3,
+    "editor.showFoldingControls": "always",
+    "editor.snippetSuggestions": "top",
+    "editor.stickyTabStops": true,
+    // "emmet.syntaxProfiles": {
+    //     "html": "xhtml"
+    // }, // This will force empty html tags to be closed
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    // "files.insertFinalNewline": true,
+    // "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "html.format.wrapAttributes": "preserve-aligned",
+    "html.format.wrapLineLength": 129,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "args": [
+                "/k",
+                "chcp.com 65001"
+            ],
+            "icon": "terminal-cmd",
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ]
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "PowerShell": {
+            "args": [
+                "-NoExit",
+                "-C",
+                "chcp.com 65001"
+            ],
+            "icon": "terminal-powershell",
+            "source": "PowerShell"
+        }
+    },
+    "window.restoreWindows": "preserve",
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#DCDCAA",
+        "editorBracketHighlight.foreground2": "#C586C0",
+        "editorBracketHighlight.foreground3": "#9CDCFE",
+        "editorBracketHighlight.foreground4": "#CE9178",
+        "editorBracketHighlight.foreground5": "#569cd6",
+        "editorBracketHighlight.foreground6": "#4ec9b0",
+    },
+    "workbench.editor.enablePreview": false,
+    "zenMode.hideTabs": false,
+    // Settings bellow are for extensions
+    "cSpell.userWords": [
+        "anki",
+        "arange",
+        "Atanas",
+        "autoplay",
+        "backticks",
+        "Bing",
+        "Blockquotes",
+        "Blockquoting",
+        "chdir",
+        "checkin",
+        "deque",
+        "displaystyle",
+        "Doubleword",
+        "draggable",
+        "dtype",
+        "elif",
+        "fhandle",
+        "fname",
+        "Fullword",
+        "fullwords",
+        "Genki",
+        "Halfword",
+        "Halfwords",
+        "Hyperfocus",
+        "imag",
+        "journaling",
+        "kani",
+        "keypress",
+        "Khanacademy",
+        "kwlist",
+        "Micromodules",
+        "monospace",
+        "Nasko",
+        "ndarray",
+        "numpy",
+        "nums",
+        "pomodoro",
+        "pygame",
+        "pynput",
+        "rfind",
+        "rgba",
+        "scrollable",
+        "srcset",
+        "striked",
+        "strptime",
+        "Terraformable",
+        "Thresholding",
+        "timedelta",
+        "timeit",
+        "Uncategorized",
+        "unindented",
+        "wani"
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.autofetch": true,
+    "gitlens.currentLine.scrollable": false,
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "editor.fontSize": 15,
+    "editor.linkedEditing": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderWhitespace": "boundary",
+    "window.zoomLevel": -0.75,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single"
+}
