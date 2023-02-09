@@ -81,12 +81,12 @@
     },
     // angular switcher
     {
-        "key": "ctrl+2",
+        "key": "ctrl+shift+a",
         "command": "angular.goToComponentWithTemplateFile",
         "when": "resourceExtname == .html"
     },
     {
-        "key": "ctrl+2",
+        "key": "ctrl+shift+a",
         "command": "angular.goToTemplateForComponent",
         "when": "resourceExtname == .ts"
     }
